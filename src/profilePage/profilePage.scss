@@ -1,0 +1,16 @@
+.outerProfilePageConatiner {
+  width: 100%;
+  height: 90%;
+  .profiles {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .profileContainers {
+      display: flex;
+      width: 1000px;
+      justify-content: space-evenly;
+    }
+  }
+}

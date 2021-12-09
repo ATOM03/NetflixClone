@@ -1,0 +1,18 @@
+.profileHeader {
+  .MuiToolbar {
+    &-root {
+      padding: 0;
+      background: black;
+    }
+  }
+  .MuiTypography-root {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 15px;
+    color: red;
+    font-size: 30px;
+  }
+  .MuiButton-root {
+    margin-right: 25px;
+  }
+}
